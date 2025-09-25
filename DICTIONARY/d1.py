@@ -53,25 +53,25 @@
 #     dict[char]=text.count(char)
 # print(dict)
 
-student={}
-n=int(input("Enter the number of student: "))
-for i in range(n):
-    name=input("Enter the name :")
-    Maths=int(input("Enter the marks of Maths: "))
-    english=int(input("Enter the marks of English: "))
-    pps=int(input("Enter the marks of pps: "))
-    student[name]={'Maths':Maths,'English':english,'PPS':pps}
-print(student)
-marks={}
-for i in student:
-    val=sum(student[i].values())
-    marks[i]=val
-    for j in student[i]:
-        student[i][j]=val
-print("updatyed student\n",student)
-print(marks)
-print("average of the class is :",sum(marks.values())/len(marks))
+# student={}
+# n=int(input("Enter the number of student: "))
+# for i in range(n):
+#     name=input("Enter the name :")
+#     Maths=int(input("Enter the marks of Maths: "))
+#     english=int(input("Enter the marks of English: "))
+#     pps=int(input("Enter the marks of pps: "))
+#     student[name]={'Maths':Maths,'English':english,'PPS':pps}
+# print(student)
+# marks={}
+# for i in student:
+#     val=sum(student[i].values())
+#     marks[i]=val
+#     for j in student[i]:
+#         student[i][j]=val
+# print("updatyed student\n",student)
+# print(marks)
+# print("average of the class is :",sum(marks.values())/len(marks))
 
-for k,w in marks.items():
-    if w==max(marks.values()):
-        print("topper of the class is :",k)
+# for k,w in marks.items():
+#     if w==max(marks.values()):
+#         print("topper of the class is :",k)
